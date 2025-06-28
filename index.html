@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hospital Death Classification - Training Tool</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f4f7f9;
+      color: #333;
+    }
+    h1 {
+      color: #004b8d;
+      text-align: center;
+    }
+    p {
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 30px;
+      background-color: #fff;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 12px;
+      text-align: left;
+    }
+    th {
+      background-color: #004b8d;
+      color: white;
+    }
+    tr:nth-child(even) {
+      background-color: #eef3f9;
+    }
+    .footer {
+      margin-top: 40px;
+      font-size: 0.9rem;
+      color: #555;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Classification of Deaths in a Hospital Setting</h1>
+
+<p>This reference table provides a structured classification of hospital deaths based on timing, clinical context, and medico-legal implications. It serves as an educational and quality-improvement tool for junior staff, administrators, and medical professionals.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Code</th>
+      <th>Circumstance & Timing</th>
+      <th>Typical Mechanism(s)</th>
+      <th>Key Medico-Legal Issues</th>
+      <th>Usual Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>A</td>
+      <td>Dead on Arrival (DOA)</td>
+      <td>Massive trauma, sudden cardiac death, electrocution, drowning</td>
+      <td>Death at scene vs. hospital; coroner notification</td>
+      <td>Certify brought-in-dead, inform police/coroner</td>
+    </tr>
+    <tr>
+      <td>B1</td>
+      <td>Peri-arrival death (&lt;1 hour)</td>
+      <td>Massive MI, tension pneumothorax, trauma</td>
+      <td>Timeliness of care, ED activation</td>
+      <td>Emergency audit; possible coroner case</td>
+    </tr>
+    <tr>
+      <td>B2</td>
+      <td>Early in-hospital death (1–24 hrs)</td>
+      <td>Fulminant sepsis, intracranial bleed</td>
+      <td>Diagnostic delay, failure to rescue</td>
+      <td>M&M review</td>
+    </tr>
+    <tr>
+      <td>C</td>
+      <td>Brief Acute Illness / Acute-on-Chronic</td>
+      <td>Acute CHF, COPD exacerbation, DKA</td>
+      <td>Escalation appropriateness</td>
+      <td>Clinical audit</td>
+    </tr>
+    <tr>
+      <td>D</td>
+      <td>Expected / Terminal Illness</td>
+      <td>End-stage cancer, DNR in place</td>
+      <td>Documentation of goals-of-care</td>
+      <td>No reporting needed</td>
+    </tr>
+    <tr>
+      <td>E1</td>
+      <td>Death after high-risk procedure</td>
+      <td>Transplant, high-risk cardiac surgery</td>
+      <td>Informed consent, surgical risk</td>
+      <td>Surgical M&M review</td>
+    </tr>
+    <tr>
+      <td>E2</td>
+      <td>Death after low-risk procedure</td>
+      <td>Colonoscopy → perforation, elective surgery mishap</td>
+      <td>Preventability, disclosure</td>
+      <td>Sentinel event analysis</td>
+    </tr>
+    <tr>
+      <td>F</td>
+      <td>Self-harm / Suicide-related</td>
+      <td>Overdose, hanging, jump from height</td>
+      <td>Risk assessment, psychiatric care gaps</td>
+      <td>Mandatory coroner reporting</td>
+    </tr>
+    <tr>
+      <td>G1</td>
+      <td>Accidental in-hospital injury</td>
+      <td>Falls, equipment-related trauma</td>
+      <td>Environmental safety checks</td>
+      <td>Incident reporting, RCA</td>
+    </tr>
+    <tr>
+      <td>G2</td>
+      <td>Therapy-induced harm</td>
+      <td>Medication error, transfusion reaction</td>
+      <td>System gaps, compliance failure</td>
+      <td>Regulatory notification</td>
+    </tr>
+    <tr>
+      <td>G3</td>
+      <td>Hospital-acquired infection</td>
+      <td>CLABSI, VAP, C. difficile colitis</td>
+      <td>Infection control compliance</td>
+      <td>Infection committee review</td>
+    </tr>
+    <tr>
+      <td>H</td>
+      <td>Environmental / Social within hospital</td>
+      <td>Fire, assault, power failure</td>
+      <td>Security, building code violation</td>
+      <td>Police + safety audit</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="footer">
+  <p>Developed for educational and hospital quality improvement use. © 2025 Dr. Alben Sigamani</p>
+</div>
+
+</body>
+</html>
